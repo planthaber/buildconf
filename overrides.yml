@@ -2,7 +2,13 @@
 # in the package sets. Below is an example to change the branch name for a given
 # package
 #
-# overrides:
+overrides:
+   - tools/rest_api:
+     github: planthaber/tools-rest_api.git
+     branch: activesupport
+
 #   - rtt
 #     branch: test
 #  
+
+
